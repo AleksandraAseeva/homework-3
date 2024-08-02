@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+}
+
+nav {
+    display: flex;
+    background-color: #BCFD4C;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    position: sticky;
+    top: 0;
+   
+}
+
+.logo {
+    font-size: 2.8rem;
+    
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    gap: 1.2rem;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu>li {
+    padding-top: 18px;
+}
+
+.menu>li:hover {
+    background-color: #6E6E6E;
+    
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intelligence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intelligence>ul {
+    margin-top: 0.8rem;
+}
+
+.socialnetworks img {
+    width: 23px;
+    margin-right: 8px;
+}
+
+.socialnetworks a {
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: black;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.btns button {
+    background-color: #BCFD4C;
+    height: 3rem;
+    font-size: 1.2rem;
+    
+}
+
+span {
+    margin-top: 1.2rem;
+}
+
+.msec {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#secone {
+    grid-column: 3/5;
+}
+
+#sectwo {
+    grid-column: 3/5;
+}
+
+#secthree {
+    grid-column: 3/5;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section li::marker {
+    color: #BCFD4C;
+}
